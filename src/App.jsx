@@ -169,7 +169,7 @@ function App() {
     })
 
     try {
-      const response = await fetch('http://localhost:8000/process-images', {
+      const response = await fetch('http://bills-ocr-b.vercel.app/process-images', {
         method: 'POST',
         body: formData,
       })
